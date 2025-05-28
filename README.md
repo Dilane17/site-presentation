@@ -1,5 +1,7 @@
 # site-presentation
 
+**👉 [Voir la démo en ligne](https://dilane17.github.io/site-presentation/)**
+
 Un site web de présentation simple, réalisé en HTML et CSS.
 
 ## Aperçu
@@ -23,3 +25,9 @@ Aucun prérequis particulier. Il suffit d’un navigateur web moderne.
 1. Clone le dépôt :
    ```bash
    git clone https://github.com/Dilane17/site-presentation.git
+   ```
+2. Ouvre le dossier :
+   ```bash
+   cd site-presentation
+   ```
+3. Ouvre le fichier `index.html` dans ton navigateur.
