@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contactez l’ISTM pour toute question ou demande d’information. Utilisez notre formulaire ou retrouvez nos coordonnées.">
+  <title>ISTM - Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Menu de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2c3e50;">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo.png" alt="Logo ISTM" width="50"> ISTM
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
+        <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li>
+        <li class="nav-item"><a class="nav-link" href="infos-pratiques.html">Infos Pratiques</a></li>
+        <li class="nav-item"><a class="nav-link" href="admission.html">Admission</a></li>
+        <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Hero -->
+  <section class="hero-section text-center py-5" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/contact-bg.jpg'); background-size: cover; background-position: center; color: #ecf0f1;">
+    <div class="container">
+      <h1 class="display-4 animate__animated animate__fadeInDown">Nous contacter</h1>
+      <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Vous avez une question ? Envoyez-nous un message ou retrouvez nos coordonnées.</p>
+      <a href="#contact-form" class="btn btn-success btn-lg mt-3 animate__animated animate__zoomIn animate__delay-2s">Envoyer un message</a>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact-form" class="contact py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">Formulaire de contact</h2>
+      <div class="row">
+        <!-- Formulaire -->
+        <div class="col-md-6 mb-4">
+          <div class="card border-0 shadow-sm animate__animated animate__fadeInLeft">
+            <div class="card-body">
+              <form action="#" method="POST">
+                <div class="form-group">
+                  <label for="nom">Nom complet</label>
+                  <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email" required>
+                </div>
+                <div class="form-group">
+                  <label for="sujet">Sujet</label>
+                  <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Entrez le sujet de votre message" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Coordonnées et carte -->
+        <div class="col-md-6 mb-4">
+          <div class="card border-0 shadow-sm animate__animated animate__fadeInRight">
+            <div class="card-body">
+              <h4 class="card-title"><i class="fas fa-info-circle fa-lg mr-2 text-success"></i> Coordonnées</h4>
+              <ul class="list-unstyled mb-4">
+                <li><i class="fas fa-map-marker-alt mr-2 text-success"></i> 123 Avenue de l’Innovation, Quartier Central, Ville, Pays</li>
+                <li><i class="fas fa-phone mr-2 text-success"></i> +123 456 789</li>
+                <li><i class="fas fa-envelope mr-2 text-success"></i> contact@istm.edu</li>
+                <li><i class="fas fa-envelope mr-2 text-success"></i> admissions@istm.edu (Admissions)</li>
+              </ul>
+              <h4 class="card-title"><i class="fas fa-map fa-lg mr-2 text-success"></i> Nous trouver</h4>
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019249215824!2d-122.41941568468132!3d37.77492977975966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ2JzI5LjciTiAxMjLCsDI1JzA5LjkiVw!5e0!3m2!1sfr!2sfr!4v1634567890123" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Appel à l’action -->
+  <section class="cta text-center py-5" style="background-color: #2c3e50; color: #ecf0f1;">
+    <div class="container">
+      <h2 class="mb-4 animate__animated animate__pulse">Rejoignez l’ISTM dès aujourd’hui !</h2>
+      <p class="lead mb-4">Explorez nos formations ou commencez votre inscription maintenant.</p>
+      <a href="admission.html" class="btn btn-success btn-lg mx-2">S’inscrire</a>
+      <a href="formations.html" class="btn btn-outline-light btn-lg mx-2">Voir nos formations</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>© 2025 ISTM. Tous droits réservés.</p>
+      <div class="mt-2">
+        <a href="https://facebook.com/istm" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/istm" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/istm" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

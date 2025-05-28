@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez les formations de l’ISTM : Génie Informatique, Réseaux et Télécommunications, Comptabilité et Finance, et plus encore.">
+  <title>ISTM - Formations</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Menu de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2c3e50;">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo.png" alt="Logo ISTM" width="50"> ISTM
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+        <li class="nav-item active"><a class="nav-link" href="formations.html">Formations</a></li>
+        <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li>
+        <li class="nav-item"><a class="nav-link" href="infos-pratiques.html">Infos Pratiques</a></li>
+        <li class="nav-item"><a class="nav-link" href="admission.html">Admission</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section Hero -->
+  <section class="hero-section text-center py-5" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/formations-bg.jpg'); background-size: cover; background-position: center; color: #ecf0f1;">
+    <div class="container">
+      <h1 class="display-4 animate__animated animate__fadeInDown">Nos Formations</h1>
+      <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Explorez nos programmes conçus pour répondre aux besoins du marché professionnel.</p>
+      <a href="#formations-list" class="btn btn-success btn-lg mt-3 animate__animated animate__zoomIn animate__delay-2s">Voir toutes les filières</a>
+    </div>
+  </section>
+
+  <!-- Section Liste des filières -->
+  <section id="formations-list" class="formations py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeIn">Choisissez votre filière</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp">
+            <div class="card-body">
+              <h5 class="card-title">Génie Informatique</h5>
+              <p class="card-text">Formez-vous aux technologies de l’information et au développement logiciel.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#genieInfoModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="card-body">
+              <h5 class="card-title">Réseaux et Télécommunications</h5>
+              <p class="card-text">Maîtrisez les infrastructures réseaux et la sécurité informatique.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#reseauTelecomModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-2s">
+            <div class="card-body">
+              <h5 class="card-title">Comptabilité et Finance</h5>
+              <p class="card-text">Acquérez des compétences en gestion financière et comptabilité.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#comptaFinanceModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp">
+            <div class="card-body">
+              <h5 class="card-title">Gestion des Ressources Humaines</h5>
+              <p class="card-text">Devenez expert en gestion du personnel et relations sociales.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#gestionRHModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="card-body">
+              <h5 class="card-title">Marketing Digital</h5>
+              <p class="card-text">Maîtrisez les stratégies de communication et marketing en ligne.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#marketingDigitalModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-2s">
+            <div class="card-body">
+              <h5 class="card-title">Génie Électrique</h5>
+              <p class="card-text">Spécialisez-vous en systèmes électriques et énergies renouvelables.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#genieElectriqueModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp">
+            <div class="card-body">
+              <h5 class="card-title">Génie Civil</h5>
+              <p class="card-text">Concevez et construisez les infrastructures de demain.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#genieCivilModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-1s">
+            <div class="card-body">
+              <h5 class="card-title">Transport et Logistique</h5>
+              <p class="card-text">Optimisez les chaînes d’approvisionnement et la logistique.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#transportLogistiqueModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 border-0 shadow-sm text-center animate__animated animate__fadeInUp animate__delay-2s">
+            <div class="card-body">
+              <h5 class="card-title">Autres Formations</h5>
+              <p class="card-text">Découvrez nos autres formations adaptées à vos besoins.</p>
+              <button class="btn btn-success" data-toggle="modal" data-target="#autresFormationsModal">En savoir plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals pour les détails des filières -->
+  <!-- Génie Informatique -->
+  <div class="modal fade" id="genieInfoModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Génie Informatique</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Développeur d’applications web et mobile</li>
+            <li>Administrateur systèmes et réseaux</li>
+            <li>Technicien ou ingénieur en informatique</li>
+            <li>Analyste-programmeur</li>
+            <li>Consultant en solutions informatiques</li>
+            <li>Responsable informatique en entreprise</li>
+            <li>Chef de projet IT (junior)</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Programmation (Python, Java, C++)</li>
+            <li>Développement web (HTML, CSS, JavaScript)</li>
+            <li>Bases de données (SQL, NoSQL)</li>
+            <li>Systèmes d’exploitation</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Réseaux et Télécommunications -->
+  <div class="modal fade" id="reseauTelecomModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Réseaux et Télécommunications</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Ingénieur réseaux et télécommunications</li>
+            <li>Technicien supérieur en réseaux informatiques</li>
+            <li>Administrateur réseaux et systèmes</li>
+            <li>Consultant en sécurité des systèmes d’information</li>
+            <li>Responsable de la maintenance des équipements de télécommunication</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Administration des réseaux</li>
+            <li>Sécurité informatique</li>
+            <li>Protocoles de télécommunications</li>
+            <li>Cloud computing</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comptabilité et Finance -->
+  <div class="modal fade" id="comptaFinanceModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Comptabilité et Finance</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Comptable en entreprise</li>
+            <li>Contrôleur de gestion</li>
+            <li>Analyste financier</li>
+            <li>Responsable administratif et financier</li>
+            <li>Expert-comptable (après formation complémentaire)</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Comptabilité générale</li>
+            <li>Gestion financière</li>
+            <li>Analyse des états financiers</li>
+            <li>Fiscalité</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gestion des Ressources Humaines -->
+  <div class="modal fade" id="gestionRHModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Gestion des Ressources Humaines</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Responsable des ressources humaines</li>
+            <li>Chargé de recrutement</li>
+            <li>Gestionnaire de paie</li>
+            <li>Consultant en gestion RH</li>
+            <li>Formateur en entreprise</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Gestion du personnel</li>
+            <li>Droit du travail</li>
+            <li>Recrutement et formation</li>
+            <li>Gestion des conflits</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marketing Digital -->
+  <div class="modal fade" id="marketingDigitalModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Marketing Digital</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Responsable marketing digital</li>
+            <li>Spécialiste SEO/SEA</li>
+            <li>Community manager</li>
+            <li>Chargé de communication digitale</li>
+            <li>Analyste de données marketing</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Stratégies de marketing digital</li>
+            <li>Référencement (SEO/SEA)</li>
+            <li>Gestion des réseaux sociaux</li>
+            <li>Analyse de données</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Génie Électrique -->
+  <div class="modal fade" id="genieElectriqueModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Génie Électrique</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Ingénieur en systèmes électriques</li>
+            <li>Technicien en maintenance électrique</li>
+            <li>Concepteur de réseaux électriques</li>
+            <li>Spécialiste en énergies renouvelables</li>
+            <li>Responsable de projets électriques</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Électrotechnique</li>
+            <li>Énergies renouvelables</li>
+            <li>Automatisation</li>
+            <li>Conception de circuits</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Génie Civil -->
+  <div class="modal fade" id="genieCivilModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Génie Civil</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Ingénieur en génie civil</li>
+            <li>Conducteur de travaux</li>
+            <li>Concepteur de structures</li>
+            <li>Responsable de projets de construction</li>
+            <li>Consultant en urbanisme</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Conception de structures</li>
+            <li>Gestion de projets de construction</li>
+            <li>Matériaux de construction</li>
+            <li>Topographie</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transport et Logistique -->
+  <div class="modal fade" id="transportLogistiqueModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Transport et Logistique</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> 3 ans (Licence professionnelle).</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Responsable logistique</li>
+            <li>Gestionnaire de transport</li>
+            <li>Analyste de la chaîne d’approvisionnement</li>
+            <li>Coordinateur logistique</li>
+            <li>Consultant en optimisation logistique</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Gestion de la chaîne d’approvisionnement</li>
+            <li>Logistique internationale</li>
+            <li>Transport multimodal</li>
+            <li>Optimisation des flux</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Autres Formations -->
+  <div class="modal fade" id="autresFormationsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Autres Formations</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Durée :</strong> Variable selon la formation.</p>
+          <p><strong>Débouchés :</strong></p>
+          <ul>
+            <li>Formations sur mesure selon les besoins du marché</li>
+            <li>Certifications professionnelles</li>
+            <li>Formations continues pour les professionnels</li>
+          </ul>
+          <p><strong>Programme :</strong></p>
+          <ul>
+            <li>Formations adaptées aux besoins spécifiques</li>
+            <li>Projets pratiques</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <a href="admission.html" class="btn btn-success">S’inscrire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section Appel à l’action -->
+  <section class="cta text-center py-5" style="background-color: #2c3e50; color: #ecf0f1;">
+    <div class="container">
+      <h2 class="mb-4 animate__animated animate__pulse">Prêt à rejoindre l’ISTM ?</h2>
+      <p class="lead mb-4">Inscrivez-vous dès aujourd’hui pour commencer votre parcours vers l’excellence.</p>
+      <a href="admission.html" class="btn btn-success btn-lg mx-2">S’inscrire</a>
+      <a href="contact.html" class="btn btn-outline-light btn-lg mx-2">Nous contacter</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>© 2025 ISTM. Tous droits réservés.</p>
+      <div class="mt-2">
+        <a href="https://facebook.com/istm" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/istm" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/istm" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
